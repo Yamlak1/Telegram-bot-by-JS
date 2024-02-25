@@ -1,0 +1,12 @@
+build:
+  image: node:14
+  environment:
+    NODE_ENV: production
+  commands:
+    - npm install
+run:
+  image: node:14
+  environment:
+    NODE_ENV: production
+  commands:
+    - npm start
